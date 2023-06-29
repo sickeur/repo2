@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SpeedRun Only Up</string>
+    <string name="maxSdkKey">2bCWO0b-G550RbEZxu8lZENRRT5mNXk1UOGnFui5Tx3FD9Gbwz07KThAhRLIc9ALwtFTv1x6zyzZko55Pua8pg</string>
+    <string name="admobSdkKey">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="rateDescription">Your Rating Really Matters! \n Please Rate our Application</string>
+    <string name="publisher_store_id">https://play.google.com/store/apps/developer?id=</string>
+    <string name="privacy">https://privacy.com</string>
+    <string name="ToastFailMessage">Currently There is an Error at the server&#8230; Please Try Again Later!</string>
+    <string name="slogan">RuN4FuN</string>
+    <string name="logan">SpeedRun Only Up</string>
+    <string name="One_Signal_ID">5e5aa468-8ed2-4766-9f38-2738828df856</string>
+    <string name="JsonUrl">https://amazingapkforyou.site/MyApps/Imane/OnlyUpRunandJumpmobilegame</string>
+    <string name="description">Run, Jump and rage in Only up mobile game Speedrun world record and be the Jump King
+</string>
+</resources>

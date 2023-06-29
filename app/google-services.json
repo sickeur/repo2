@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "154756985547",
+    "project_id": "test-95sd6",
+    "storage_bucket": "test-95sd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154756985547:android:6699c608631a5d4s68f943",
+        "android_client_info": {
+          "package_name": "com.UpOnly.Race_Run.JumpKing.OnlyUpMobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154756985547-p0u9pf1alnft1g3gqdt7vigq3dlkaf32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "SUidVyCHXWVSc765oeysil_UXnp8n2zUEzwZsIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154756985547-p0u9pf1alnft1g3gqdt7vigq3dlkaf32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

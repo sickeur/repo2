@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:isGame="true"
+        android:description="@string/description"
+        android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.Lilly_APP"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/new_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/new_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AymanUltimateGuide"
+        tools:targetApi="33">
+        <activity
+            android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.DemActivities.KhadamBGActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.DemActivities.SecondaryActive"
+            android:configChanges="orientation|screenSize|keyboardHidden|keyboard"
+            android:exported="false"/>
+        <activity
+            android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.DemActivities.ListaActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.DemActivities.UuuuuselessActive"
+            android:exported="false" />
+        <activity
+            android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.DemActivities.MyRedActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.DemActivities.PrimeActive"
+            android:configChanges="orientation|screenSize|keyboardHidden|keyboard"
+            android:exported="false" />
+        <activity
+            android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.DemActivities.Lguide_Dyali"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.DemActivities.Ra2issi_Menu"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.DemActivities.Enjoy_Activity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.DemActivities.Simple_Lowel_Activity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.UpOnly.Race_Run.JumpKing.OnlyUpMobile.DemActivities.SplashSceneActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<!--
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="@string/maxSdkKey" />
+            -->
+        <meta-data android:name="applovin.sdk.key"
+            android:value="@string/maxSdkKey"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admobSdkKey" />
+    </application>
+
+</manifest>
